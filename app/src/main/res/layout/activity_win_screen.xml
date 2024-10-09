@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/bg">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/completed"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="120dp"
+        />
+
+
+
+
+    <ImageView
+        android:id="@+id/winMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/completeboard"
+        android:layout_marginTop="100dp"
+        />
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/winstar"
+        />
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/star"
+        android:layout_marginLeft="60dp"
+        android:textAlignment="viewEnd"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/pointbg"
+        />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:layout_marginTop="59dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/star"
+        />
+
+
+    <ImageView
+        android:id="@+id/nextLevelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nextbtn"
+        android:layout_below="@id/winMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+
+</RelativeLayout>
